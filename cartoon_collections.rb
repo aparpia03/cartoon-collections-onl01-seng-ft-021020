@@ -12,8 +12,6 @@ def summon_captain_planet(calls)# code an argument here
     call.split()
     
   end  
-  
-  
 end
 
 def long_planeteer_calls(calls)code an argument here
@@ -21,7 +19,7 @@ def long_planeteer_calls(calls)code an argument here
   calls.each_with_index do |call,index|
     if call[index].length == 4
        true
-    elseif call[index].length == !4
+    elsif call[index].length == !4
        false
    end
 end
