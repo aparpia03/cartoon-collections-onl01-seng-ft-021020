@@ -1,4 +1,4 @@
-def roll_call_dwarves(names) # code an argument here
+def roll_call_dwarves(names) 
    # Your code here
    names.each_with_index do |name,index|
      num = index + 1
@@ -14,7 +14,7 @@ end
   end  
 =end end
 
-def long_planeteer_calls(calls) #code an argument here
+def long_planeteer_calls(calls)
   # Your code here
   calls.each_with_index do |call,index|
     if call[index].length == 4
@@ -24,7 +24,7 @@ def long_planeteer_calls(calls) #code an argument here
    end
 end
 
-def find_the_cheese(array_of_strings) #code an argument here
+def find_the_cheese(array_of_strings)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   array_of_strings.map do |string|
