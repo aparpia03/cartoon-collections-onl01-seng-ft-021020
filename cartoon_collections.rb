@@ -6,14 +6,13 @@ def roll_call_dwarves(names)
  end
 end
 
-=begin def summon_captain_planet(calls)# code an argument here
+ def summon_captain_planet(calls)# code an argument here
   # Your code here
   calls.map do |call|
     call.split()
     
   end  
  end
-=end
 
 def long_planeteer_calls(calls)
   # Your code here
