@@ -17,9 +17,9 @@ end
 def long_planeteer_calls(calls)
   # Your code here
   calls.each_with_index do |call,index|
-    if call[index].length == 4
+    if call[index].length >= 4
        true
-    elsif call[index].length == !4
+    elsif call[index].length < !4
        false
    end
 end
