@@ -20,7 +20,7 @@ def long_planeteer_calls(calls)
     call.length > 4; 
  end
 end
-
+binding.pry
 def find_the_cheese(array_of_strings)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
@@ -32,7 +32,6 @@ def find_the_cheese(array_of_strings)
     elsif string.include?("camembert")
       cheese_types[2]
     else nil
-      binding.pry 
     end  
  end
 end
