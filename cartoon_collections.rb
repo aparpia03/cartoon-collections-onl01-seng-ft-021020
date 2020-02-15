@@ -1,3 +1,4 @@
+require 'pry'
 def roll_call_dwarves(names) 
    # Your code here
    names.each_with_index do |name,index|
