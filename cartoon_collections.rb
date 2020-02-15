@@ -15,7 +15,9 @@ end
 
 def long_planeteer_calls(calls)
   # Your code here
- calls.any?
+ calls.any? do |call|
+   
+ end
 end
 
 def find_the_cheese(array_of_strings)
