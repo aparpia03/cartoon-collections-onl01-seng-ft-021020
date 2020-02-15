@@ -35,5 +35,6 @@ def find_the_cheese(array_of_strings)
     elsif string.include?("camembert")
       cheese_types[2]
     else nil
+    end  
  end
 end
