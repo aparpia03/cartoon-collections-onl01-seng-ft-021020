@@ -6,7 +6,7 @@ def roll_call_dwarves(names)
  end
 end
 
- def summon_captain_planet(calls)# code an argument here
+ def summon_captain_planet(calls)
   # Your code here
   calls.map do |call|
     call.split()
@@ -35,6 +35,6 @@ def find_the_cheese(array_of_strings)
       cheese_types[1]
     elsif string.include?("camembert")
       cheese_types[2]
-    else return nil
+    else nil
  end
 end
