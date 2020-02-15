@@ -6,7 +6,7 @@ def roll_call_dwarves(names)# code an argument here
  end
 end
 
-def summon_captain_planet(calls)# code an argument here
+=begin def summon_captain_planet(calls)# code an argument here
   # Your code here
   calls.map do |call|
     call.split()
