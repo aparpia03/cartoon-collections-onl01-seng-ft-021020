@@ -10,7 +10,6 @@ end
   # Your code here
   calls.map do |call|
     call.capitalize + "!"
-    
   end  
  end
 
